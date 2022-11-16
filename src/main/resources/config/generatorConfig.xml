@@ -37,9 +37,9 @@
         </commentGenerator>
         <!-- jdbc连接-->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.3.190:3306/neshield?serverTimeZone=Shanghai&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
-                        userId="dev_user"
-                        password="df234fl">
+                        connectionURL="jdbc:mysql://112.74.125.238:3306/neshield?serverTimeZone=Shanghai&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+                        userId="root"
+                        password="986203">
             <!--防止生成其他库同名表-->
             <property name="nullCatalogMeansCurrent" value="true"/>
         </jdbcConnection>
@@ -75,7 +75,7 @@
         <!--        <table tableName="t_alarm_second_data" domainObjectName="AlarmSecondData" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
         <!--        <table tableName="t_alarm_second_data_near_rel" domainObjectName="AlarmSecondDataNearRel" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
         <!--        <table tableName="t_alarm_warn_analyse" domainObjectName="AlarmWarnAnalyse" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"/>-->
-        <table tableName="t_fake_offline_change_frequently" domainObjectName="FakeOfflineChangeFrequently"
+        <table tableName="t_user" domainObjectName="User"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false"/>
     </context>
